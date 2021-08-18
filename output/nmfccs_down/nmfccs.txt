@@ -1,0 +1,10 @@
+	RENCA.CTL.LAWSON..Gene..Statistic.Value	EMT6.CTL.LAWSON..Gene..Statistic.Value	B16.CTL.LAWSON..Gene..Statistic.Value	X4T1.CTL.LAWSON..Gene..Statistic.Value	CT26.CTL.LAWSON..Gene..Statistic.Value	MC38.CTL.LAWSON..Gene..Statistic.Value	B16.CTL.KEARNEY..Gene..Statistic.Value	MC38.CTL.KEARNEY..Gene..Statistic.Value	B16.CTL.PRFKO.KEARNEY..Gene..Statistic.Value	MDAMB231.CART.HER2.KEARNEY..Gene..Statistic.Value	MC38.NK.KEARNEY..Gene..Statistic.Value	MC38.CTL.PD1.KEARNEY..Gene..Statistic.Value	MC38.CTL.IgG.KEARNEY..Gene..Statistic.Value	MART1.CTL.LIBA.VRED..Gene..Statistic.Value	MART1.CTL.LIBB.VRED..Gene..Statistic.Value	K562.NK1_1.PECH..Gene..Statistic.Value	K562.NK2_5.PECH..Gene..Statistic.Value
+K2	1	1	1	1	1	1	0	1	0	0	0	0	0	1	1	0	0
+K3	0	0	0	0	0	0	2	2	2	2	1	2	2	0	0	1	1
+K4	0	0	0	0	0	0	1	1	1	3	3	3	3	3	3	2	2
+K5	0	0	4	0	0	0	1	1	1	4	4	3	3	4	4	2	2
+K6	0	0	5	0	0	0	1	1	1	5	2	2	2	4	4	3	3
+K7	0	0	6	0	0	0	1	1	1	5	5	4	4	3	3	2	2
+K8	0	0	6	0	0	1	2	2	2	7	6	4	4	5	5	3	3
+K9	0	0	8	0	0	5	4	7	4	6	7	1	1	2	2	3	3
+K10	0	0	5	0	0	7	1	9	1	8	6	3	3	2	2	4	4
