@@ -23,7 +23,7 @@ The "code" folder contains the modified Chapter 3 and Chapter 5 notebooks, with 
 How to Run This Project
 
 1. set up your computer's environment (follow step 1 in README_original.md, ignore "spro" because this package doesn't seem to exist anymore)
-2. clone this repository by typing "git clone <url to this repo>" in the command prompt
+2. clone this repository by typing "git clone <url to this repo>" in the command prompt; this should take several minutes, as this repo contains several large files
 3. make sure you are using python 3.6, set up your environment, and run the jupyter notebook application (see "Docker" below)
 4. navigate to "code" folder; first run the Chapter 3 notebooks and then the Chapter 5 notebooks
 5. modify the code to run it on your own gene signatures and expression tables
@@ -33,7 +33,7 @@ Running Code on a Docker
 This makes sure that the code is run in the desired environment (i.e. proper python version and packages). All files that are needed to build the docker are contained in the 'docker' folder inside the root directory. To build and run the docker, simply run the following two commands in a linux terminal inside the root directory of this repository:
 
 docker build -f docker/ccal.build -t ccal.test docker
-docker run -h lj-compbio-wsk21.pfizer.com -p 8888:8888 -v $(pwd):/home/jovyan/work ccal.build
+docker run -h lj-compbio-wsk21.pfizer.com -p 8888:8888 -v $(pwd):/home/jovyan/work ccal.test
 
 Links to Referenced Articles and Code
 
