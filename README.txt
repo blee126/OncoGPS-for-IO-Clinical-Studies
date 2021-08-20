@@ -30,9 +30,13 @@ How to Run This Project
 
 Running Code on a Docker
 
-This makes sure that the code is run in the desired environment (i.e. proper python version and packages). The instructions for this process are to be added here in the near future, as I am still figuring out those instructions.
+This makes sure that the code is run in the desired environment (i.e. proper python version and packages). All files that are needed to build the docker are contained in the 'docker' folder inside the root directory. To build and run the docker, simply run the following two commands in a linux terminal inside the root directory of this repository:
 
-Links
+docker build -f docker/ccal.build -t ccal.test docker
+docker run -h lj-compbio-wsk21.pfizer.com -p 8888:8888 -v $(pwd):/home/jovyan/work ccal.build
+
+Links to Referenced Articles and Code
+
 Original OncoGPS Paper Analysis Code: https://github.com/UCSD-CCAL
 Full Article on OncoGPS: http://www.cell.com/cell-systems/fulltext/S2405-4712(17)30335-6
 B9991003 Study: https://clinicaltrials.gov/ct2/show/NCT02684006
